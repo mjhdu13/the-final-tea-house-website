@@ -29,27 +29,82 @@
    <main class="max-w-screen-xl mx auto px-16 lg:px-28">
 
     <!-- header section -->
-     <header class="flex pt-10 mb-20">
+     <header class="lg:flex pt-10 mb-20">
     <!-- text-content -->
      <div>
-      <h1 class="text-5xl">It's good <br>
+      <h1 class="text-5xl md:text-7xl">It's good <br>
         tea time at The <br> Tea House</h1>
-      <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+      <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
       <br>
-      <button>Explore More <i class="fa-solid fa-arrow-right"></i></button>
+      <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
      </div>
     <!-- image content -->
-     <div></div>
+     <div class="relative">
+      <!-- image -->
+      <div>
+        <img class="w-full" src="/images/banner.png" alt="">
+      </div>
+      <!-- card -->
+       <div class="absolute top-28 md:top-80 md:left-32 lg:left-28 flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg">
+        <!-- icon -->
+        <i class="fa-regular fa-star text-2xl text-amber-500"></i>
+        <div class="ml-2">
+          <!-- text -->
+           <h2 class="lg:text-2xl font-bold">5.00</h2>
+           <p class="text-gray-500">Trust polit rating</p>
+        </div>
+       </div>
+     </div>
 
      </header>
 
-     <!-- test div -->
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat dolorum ipsam temporibus dolor id quos reiciendis deleniti ex earum consequuntur dolores ad architecto ullam excepturi quasi, vero dolore, debitis perferendis? Est voluptatem totam amet molestias enim veritatis quas atque, hic id, rem similique itaque maxime a! Consequatur, architecto assumenda!</p> 
-        <br>
-        <!-- test div 2 -->
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil id quis eos labore porro hic voluptates at facere, consequuntur aspernatur nobis, veniam eaque sapiente! Illum, soluta. Delectus nesciunt ipsa eius quos sapiente ad maxime earum voluptate dicta corrupti veritatis nam vero, animi vel odio a placeat, cupiditate, dolorum ut similique. Explicabo assumenda vel labore? Voluptate excepturi corporis mollitia eius dolore ex deserunt vitae fuga laudantium? Omnis odio repellat explicabo libero, mollitia itaque culpa provident ea at ut aliquid iure fugiat. Autem, velit. Totam quasi, eveniet doloremque modi enim iste! Atque accusantium aspernatur culpa deleniti et aperiam veritatis, iure quod vitae?</p>
-      </div>
+     <!-- featured product section -->
+      <section class="py-8 lg:py-24">
+        <!-- title -->
+        <div class="text-center mb-8">
+          <h1 class="text-3xl md:4xl font-bold mb-5">Our Featured Product</h1>
+          <p class="text-gray-600 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <!-- grid cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+        <!-- product cards 1-->
+         <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto pt-4" src="/images/tea-1.png" alt="">
+           <div class="p-4">
+            <h2 class="font-bold text-xl">Milk Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+           </div>
+         </div>
+         <!-- product card 2 -->
+         <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto pt-4" src="/images/tea-2.png" alt="">
+           <div class="p-4">
+            <h2 class="font-bold text-xl">Black Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+           </div>
+         </div>
+         <!-- product card 3 -->
+         <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto pt-4" src="/images/tea-3.png" alt="">
+           <div class="p-4">
+            <h2 class="font-bold text-xl">Lemon Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+           </div>
+           <!-- product card 4 -->
+         </div>
+         <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto pt-4" src="/images/tea-4.png" alt="">
+           <div class="p-4">
+            <h2 class="font-bold text-xl">Green Tea</h2>
+            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+           </div>
+         </div>
+
+
+         </div>
+
+      </section>
+
 
    </main>
 </body>
